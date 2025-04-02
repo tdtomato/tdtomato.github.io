@@ -42,17 +42,15 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
                         })
                 );
         }
-        expand(lsItem());
 
-        // expand current selected chapter with it's parents
+        // 現在のページのカテゴリーのみを展開
         var activeChapter = $(CHAPTER + '.active');
-        expand(activeChapter);
-
-        // expand current selected chapter's children
-        // expand(activeChapter.parents(CHAPTER));
-        activeChapter.find(ARTICLE_CHILDREN).closest(FOLDABLE).each(function () {
-            expand($(this));
-        });
+        if (activeChapter.length) {
+            // 現在のページの親カテゴリーを展開
+            activeChapter.parents(CHAPTER).addClass(TOGGLE_CLASSNAME);
+            // 現在のページのカテゴリーを展開
+            activeChapter.addClass(TOGGLE_CLASSNAME);
+        }
     }
 
     var toggle = function ($chapter) {
