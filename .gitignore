@@ -1,3 +1,5 @@
 _site/
-_draft/
+_draft/*
+!_draft/.gitkeep
+!_draft/template.md
 .jekyll-cache/
