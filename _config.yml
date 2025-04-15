@@ -63,8 +63,8 @@ collections:
 
 ordered_collections:
   - pages
-  - scraps
   - posts
+  - scraps
 
 page_width: 800px
 

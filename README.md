@@ -7,9 +7,9 @@ permalink: /
 ## Recent Posts
 
 {% for post in site.posts limit:3 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y/%m/%d" }}
-{% endfor %}
 
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y/%m/%d" }}
+  {% endfor %}
 
 ## Acknowledgements
 
@@ -22,9 +22,8 @@ Special thanks to [@sighingnow](https://github.com/sighingnow) for the fantastic
 
 ### ✍️ Content License
 
-All original content in this repository – including blog posts, images, and other media – is © 2025 tdTomato.  
+All original content in this repository – including blog posts, images, and other media – is © 2025 tdTomato.
 
 > Please do not reuse blog content without appropriate credit or permission.
 
-> The contents on this site are solely those of the author  
-> and do not reflect those of any employer, organization, or affiliated entity.
+> The contents on this site are solely those of the author and do not reflect those of any employer, organization, or affiliated entity.
