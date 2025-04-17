@@ -14,8 +14,8 @@ category: Database Design and Implementation
 
 1. Database Systems
 2. JDBC
-3. Disk and File Management <- 今ココ
-4. Memory Management
+3. Disk and File Management
+4. Memory Management <- 今ココ
 5. Transaction Management
 6. Record Management
 7. Metadata Management
