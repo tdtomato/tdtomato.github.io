@@ -1,8 +1,6 @@
 ---
 title: GitHub Pagesに移行した
-author: Tao He
 date: 2025-04-02
-category: Test Category
 layout: post
 mermaid: true
 ---
